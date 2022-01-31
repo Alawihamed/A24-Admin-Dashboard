@@ -1,0 +1,33 @@
+.user-list .user-add-btn {
+  min-width: 80px;
+  float: right;
+  padding: 7px 20px;
+  background-color: var(--main-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  transition: var(--main-duration);
+}
+.user-list .user-add-btn:hover {
+  background-color: #2d2dd8;
+}
+.user-list .user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-list .btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0px 5px;
+  font-size: 22px;
+}
+.user-list .btn-delete {
+  color: #dd1818;
+}

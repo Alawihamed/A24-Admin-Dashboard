@@ -1,0 +1,27 @@
+.orders-list .orders-add-btn {
+  min-width: 80px;
+  float: right;
+  padding: 7px 20px;
+  background-color: var(--main-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  transition: var(--main-duration);
+}
+.orders-list .orders-add-btn:hover {
+  background-color: #2d2dd8;
+}
+
+.orders-list .btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0px 5px;
+  font-size: 22px;
+}
+.orders-list .btn-delete {
+  color: #dd1818;
+}

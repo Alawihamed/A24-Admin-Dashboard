@@ -1,0 +1,86 @@
+.sidebar {
+  width: var(--sidebar-width-lg);
+  height: calc(100vh - 50px);
+  background-color: #fbfbff;
+  position: sticky;
+  top: 50px;
+  transition: var(--main-duration);
+}
+
+.sidebar .sidebar-wrapper {
+  padding: 20px;
+  color: #555;
+}
+.sidebar .sidebar-wrapper .sidebar-menu {
+  margin-bottom: 10px;
+}
+.sidebar .sidebar-wrapper .sidebar-menu .sidebar-container {
+  position: relative;
+}
+.sidebar .sidebar-wrapper .sidebar-menu .sidebar-container .toggle-icon {
+  position: absolute;
+  font-size: 1.4rem;
+  right: -30px;
+  top: -20px;
+  cursor: pointer;
+}
+.sidebar .sidebar-wrapper .sidebar-menu .sidebar-title {
+  font-size: 14px;
+  color: #666;
+}
+.sidebar .sidebar-wrapper .sidebar-menu .sidebar-list {
+  padding: 5px;
+}
+
+.sidebar .sidebar-wrapper .sidebar-menu .sidebar-list .sidebar-item {
+  padding: 10px;
+  margin: 5px 0px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.sidebar .sidebar-wrapper .sidebar-menu .sidebar-list .sidebar-item:hover,
+.sidebar .sidebar-wrapper .sidebar-menu .sidebar-list .active .sidebar-item {
+  background-color: #f0f0ff;
+}
+
+.sidebar-item .sidebar-icon {
+  margin-right: 10px;
+}
+@media (max-width: 768px) {
+  .sidebar {
+    width: var(--sidebar-width-sm);
+  }
+  .sidebar .sidebar-wrapper {
+    padding: 20px 10px;
+  }
+  .sidebar .sidebar-wrapper .sidebar-menu .sidebar-list .sidebar-item {
+    justify-content: center;
+  }
+  .sidebar .sidebar-wrapper .sidebar-menu .sidebar-list .sidebar-item p {
+    display: none;
+  }
+  .sidebar-item .sidebar-icon {
+    margin-right: 0px;
+  }
+  .sidebar .sidebar-wrapper .sidebar-menu .sidebar-container .toggle-icon {
+    display: none;
+  }
+}
+.sidebar-toggle {
+  width: var(--sidebar-width-sm);
+}
+.sidebar-toggle .sidebar-wrapper {
+  padding: 20px 10px;
+}
+.sidebar-toggle .sidebar-wrapper .sidebar-menu .sidebar-list .sidebar-item {
+  justify-content: center;
+}
+.sidebar-toggle .sidebar-wrapper .sidebar-menu .sidebar-list .sidebar-item p {
+  display: none;
+}
+.sidebar-toggle .sidebar-item .sidebar-icon {
+  margin-right: 0px;
+}

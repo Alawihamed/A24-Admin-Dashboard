@@ -1,0 +1,63 @@
+.widget-large {
+  flex: 2;
+  padding: 20px;
+  box-shadow: var(--box-shadow);
+}
+.widget-large .widget-small-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.widget-large .responsive-table {
+  overflow: auto;
+}
+.widget-large .widget-large-table {
+  border-collapse: collapse;
+  width: 100%;
+  border-spacing: 0;
+}
+
+.widget-large .widget-large-table tr {
+  text-align: left;
+}
+.widget-large .widget-large-table th,
+.widget-large .widget-large-table td {
+  padding: 8px;
+}
+.widget-large .widget-large-table .widget-large-user {
+  display: flex;
+  align-items: center;
+}
+.widget-large .widget-large-user .widget-large-user-name {
+  font-weight: bold;
+}
+.widget-large .widget-large-table .widget-large-user .widget-large-user-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+.widget-large .widget-large-table .widget-large-button {
+  font-weight: 600;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+.widget-large .widget-large-table .widget-large-button.Approved {
+  background-color: #e5faf2;
+  color: #3bb077;
+}
+.widget-large .widget-large-table .widget-large-button.Declined {
+  background-color: #fff0f1;
+  color: #d95087;
+}
+.widget-large .widget-large-table .widget-large-button.Pending {
+  background-color: #ebf1fe;
+  color: #2a7ade;
+}
+.widget-large .widget-large-table .widget-large-date,
+.widget-large .widget-large-table .widget-large-amount {
+  font-weight: 400;
+  color: #aaa;
+}

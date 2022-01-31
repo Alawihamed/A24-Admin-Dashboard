@@ -1,0 +1,131 @@
+.user {
+  width: 100%;
+  flex: 4;
+  padding: 20px;
+}
+
+.user .user-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.user .user-container {
+  display: flex;
+  gap: 20px;
+}
+.user .user-container .user-info {
+  flex: 1;
+  padding: 20px;
+  box-shadow: var(--box-shadow);
+}
+.user .user-container .user-info .user-info-top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.user-info .user-info-top .user-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.user-info .user-info-top .user-info-top-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.user-info-top-container .user-info-top-name {
+  font-weight: 600;
+}
+.user-info-top-container .user-info-top-title {
+  color: #555;
+  font-weight: 300;
+}
+.user .user-container .user-info .user-info-bottom {
+  display: flex;
+  flex-direction: column;
+}
+.user-info .user-info-bottom .user-info-bottom-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #afaaaa;
+  margin-top: 10px;
+}
+.user-info .user-info-bottom .user-info-bottom-container {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  color: #444;
+}
+.user-info-bottom .user-info-bottom-container .user-info-bottom-icon {
+  font-size: 18px;
+  margin-right: 10px;
+}
+.user-info-bottom .user-info-bottom-container .user-info-bottom-details {
+  font-size: 16px;
+}
+.user .user-container .user-update {
+  flex: 2;
+  padding: 20px;
+  box-shadow: var(--box-shadow);
+}
+.use .user-container .user-update .user-update-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.user-update .user-update-form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.user-update .user-update-form .user-update-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.user-update .user-update-form .user-update-item > label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.user-update .user-update-form .user-update-item .user-update-input {
+  width: 250px;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid #555;
+  outline: none;
+}
+.user-update .user-update-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.user-update .user-update-right .user-update-upload {
+  display: flex;
+  align-items: center;
+}
+.user-update .user-update-right .user-update-upload .user-update-icon {
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 1.3rem;
+}
+.user-update-right .user-update-upload .user-update-upload-avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.user-update .user-update-right .user-update-button {
+  background-color: #00008b;
+  padding: 7px 10px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: var(--main-duration);
+}
+.user-update .user-update-right .user-update-button:hover {
+  background-color: #2d2dd8;
+}

@@ -1,0 +1,64 @@
+.new-user {
+  width: 100%;
+  flex: 4;
+  padding: 20px;
+}
+.new-user .new-user-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.new-user .new-user-form {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.new-user .new-user-form .new-user-item {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.new-user .new-user-form .new-user-item > label {
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #808080;
+}
+.new-user .new-user-form .new-user-item .new-user-input {
+  height: 20px;
+  padding: 20px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+.new-user .new-user-form .new-user-item .new-user-gender > input {
+  margin-top: 15px;
+}
+
+.new-user .new-user-form .new-user-item .new-user-gender > label {
+  margin: 10px;
+  font-size: 18px;
+  color: #555;
+}
+.new-user .new-user-form .new-user-item .new-user-select {
+  height: 40px;
+  border-radius: 5px;
+}
+.new-user .new-user-form .new-user-btn-save {
+  width: 200px;
+  background-color: #00008b;
+  padding: 7px 20px;
+  margin-top: 50px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: var(--main-duration);
+}
+.new-user .new-user-form .new-user-btn-save:hover {
+  background-color: #2d2dd8;
+}
